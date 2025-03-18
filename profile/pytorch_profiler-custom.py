@@ -11,7 +11,7 @@ from torch.profiler import profile, record_function, ProfilerActivity
 def trace_handler(prof):
     print(prof.key_averages().table(
         sort_by="self_cuda_time_total", row_limit=-1))
-    prof.export_chrome_trace("/tmp/test_trace_" + str(prof.step_num) + ".json")
+    prof.export_chrome_trace("custom_trace_" + str(prof.step_num) + ".json")
 
 with torch.profiler.profile(
     activities=[
