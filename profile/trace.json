@@ -1,0 +1,2056 @@
+
+{
+  "schemaVersion": 1,
+  "traceEvents": [
+  
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290927962745, "dur": 16,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 2, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290927962775, "dur": 721224,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 3, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290927962723, "dur": 721286,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 1, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290928685656, "dur": 3772584,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 5, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932458265, "dur": 64442,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 7, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932458260, "dur": 64465,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 6, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290928685649, "dur": 3837078,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 4, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538404, "dur": 8,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 11, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538422, "dur": 173,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 13, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538416, "dur": 183,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 12, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538601, "dur": 4,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 14, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538607, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 15, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538609, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 16, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538388, "dur": 277,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 10, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538383, "dur": 283,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 9, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538367, "dur": 300,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 8, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538686, "dur": 10,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 18, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538699, "dur": 720978,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 19, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290932538683, "dur": 721004,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 17, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933259718, "dur": 15,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 21, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933259736, "dur": 64392,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 23, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933259735, "dur": 64397,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 22, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933259708, "dur": 64425,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 20, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340183, "dur": 7,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 27, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340195, "dur": 277,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 29, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340193, "dur": 282,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 28, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340478, "dur": 3,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 30, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340483, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 31, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340485, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 32, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340180, "dur": 339,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 26, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340179, "dur": 342,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 25, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340173, "dur": 349,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 24, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340540, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 34, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340564, "dur": 720489,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 35, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290933340538, "dur": 720523,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 33, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934061090, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 37, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934061113, "dur": 65802,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 39, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934061111, "dur": 65808,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 38, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934061080, "dur": 65840,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 36, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143265, "dur": 8,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 43, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143278, "dur": 9,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 45, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143276, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 44, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143290, "dur": 2,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 46, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143294, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 47, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143295, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 48, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143263, "dur": 103,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 42, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143261, "dur": 106,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 41, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143256, "dur": 126,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 40, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143399, "dur": 28,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 50, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143429, "dur": 718096,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 51, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934143397, "dur": 718135,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 49, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934861561, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 53, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934861578, "dur": 65594,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 55, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934861576, "dur": 65599,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 54, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934861550, "dur": 65626,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 52, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943420, "dur": 6,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 59, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943431, "dur": 11,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 61, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943429, "dur": 14,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 60, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943444, "dur": 2,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 62, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943447, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 63, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943449, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 64, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943417, "dur": 66,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 58, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943415, "dur": 69,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 57, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943409, "dur": 76,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 56, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943501, "dur": 16,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 66, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943531, "dur": 708025,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 67, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290934943499, "dur": 708063,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 65, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935651588, "dur": 12,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 69, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935651604, "dur": 64380,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 71, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935651602, "dur": 64387,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 70, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935651579, "dur": 64411,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 68, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732005, "dur": 7,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 75, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732017, "dur": 9,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 77, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732015, "dur": 17,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 76, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732034, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 78, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732037, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 79, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732038, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 80, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732002, "dur": 71,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 74, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732001, "dur": 73,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 73, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935731995, "dur": 80,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 72, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732092, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 82, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732107, "dur": 701306,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 83, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290935732090, "dur": 701331,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 81, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936433449, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 85, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936433466, "dur": 65571,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 87, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936433464, "dur": 65576,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 86, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936433439, "dur": 65602,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 84, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515336, "dur": 22,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 91, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515363, "dur": 24,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 93, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515361, "dur": 27,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 92, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515389, "dur": 2,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 94, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515393, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 95, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515394, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 96, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515318, "dur": 129,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 90, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515313, "dur": 136,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 89, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515307, "dur": 143,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 88, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515467, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 98, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515484, "dur": 717708,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 99, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290936515465, "dur": 717734,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 97, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937233223, "dur": 12,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 101, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937233239, "dur": 65762,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 103, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937233237, "dur": 65769,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 102, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937233214, "dur": 65793,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 100, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315797, "dur": 7,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 107, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315809, "dur": 10,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 109, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315807, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 108, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315821, "dur": 2,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 110, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315824, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 111, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315826, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 112, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315794, "dur": 67,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 106, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315793, "dur": 69,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 105, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315787, "dur": 76,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 104, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315880, "dur": 14,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 114, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315896, "dur": 726145,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 115, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290937315877, "dur": 726173,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 113, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938042081, "dur": 15,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 117, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938042100, "dur": 65739,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 119, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938042097, "dur": 65745,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 118, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938042070, "dur": 65773,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 116, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124399, "dur": 7,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 123, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124412, "dur": 10,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 125, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124410, "dur": 14,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 124, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124425, "dur": 2,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 126, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124428, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 127, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124430, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 128, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124396, "dur": 71,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 122, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124395, "dur": 73,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 121, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124389, "dur": 80,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 120, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124486, "dur": 15,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 130, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124526, "dur": 716704,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 131, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938124483, "dur": 716755,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 129, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938841266, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 133, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938841283, "dur": 65606,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 135, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938841281, "dur": 65611,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 134, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938841256, "dur": 65637,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 132, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938922987, "dur": 7,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 139, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938922999, "dur": 11,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 141, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938922997, "dur": 14,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 140, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938923012, "dur": 2,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 142, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938923015, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 143, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938923017, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 144, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938922984, "dur": 67,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 138, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938922982, "dur": 70,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 137, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938922976, "dur": 77,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 136, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938923071, "dur": 15,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 146, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::normal_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938923089, "dur": 719798,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 147, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::randn", "pid": 386, "tid": "1757620032",
+    "ts": 1742290938923068, "dur": 719826,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 145, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939642922, "dur": 13,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 149, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939642939, "dur": 65624,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 151, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::copy_", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939642937, "dur": 65630,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 150, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939642912, "dur": 65656,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 148, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939724999, "dur": 7,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 155, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_strided", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939725012, "dur": 9,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 157, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::empty_like", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939725009, "dur": 19,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 156, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::result_type", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939725029, "dur": 2,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 158, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::can_cast", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939725032, "dur": 0,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 159, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::to", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939725034, "dur": 1,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 160, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939724996, "dur": 72,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 154, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::pow", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939724995, "dur": 75,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 153, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "Operator", 
+    "name": "aten::square", "pid": 386, "tid": "1757620032",
+    "ts": 1742290939724988, "dur": 83,
+    "args": {
+       "Input dims": [], "Input type": [], "Input names": [],
+       "Output dims": [], "Output type": [], "Output names": [],
+       "Device": 0, "External id": 152, "Extra arguments": [],
+       "Call stack": "",
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 386, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 386, "tid": 0,
+    "args": {
+      "labels": "CPU"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 0, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 0, "tid": 0,
+    "args": {
+      "labels": "GPU 0"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 1, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 1, "tid": 0,
+    "args": {
+      "labels": "GPU 1"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 2, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 2, "tid": 0,
+    "args": {
+      "labels": "GPU 2"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 3, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 3, "tid": 0,
+    "args": {
+      "labels": "GPU 3"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 4, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 4, "tid": 0,
+    "args": {
+      "labels": "GPU 4"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 5, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 5, "tid": 0,
+    "args": {
+      "labels": "GPU 5"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 6, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 6, "tid": 0,
+    "args": {
+      "labels": "GPU 6"
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1742290927962616, "pid": 7, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1742290927962616, "pid": 7, "tid": 0,
+    "args": {
+      "labels": "GPU 7"
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1742290927962616, "pid": 386, "tid": "1757620032",
+    "args": {
+      "name": "thread 0 (python)"
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 1742290927962616, "dur": 11762481,
+    "pid": "Traces", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 1742290927962616
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 1742290939725106
+  }
+]}
