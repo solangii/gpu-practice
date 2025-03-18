@@ -7,4 +7,4 @@ with profile(activities=[ProfilerActivity.CPU, ProfilerActivity.CUDA]) as prof:
     for _ in range(10):
         a = torch.square(torch.randn(10000, 10000).cuda())
 
-prof.export_chrome_trace("default_trace.json")
+prof.export_chrome_trace("pytorch_profiler/default_trace.json")
