@@ -1,4 +1,4 @@
-## gpu-practice 
+# gpu-practice 
 > 📚 Study GPU programming with CUDA and PyTorch
 
 1. How to profile CUDA kernels in PyTorch
@@ -11,4 +11,4 @@
 
 
 ### References
-- GPU Mode [[Youtube Channel](https://www.youtube.com/@GPUMODE)],[[github](https://github.com/gpu-mode/lectures)]
+- GPU Mode: [[Youtube Channel]](https://www.youtube.com/@GPUMODE),[[github]](https://github.com/gpu-mode/lectures)
